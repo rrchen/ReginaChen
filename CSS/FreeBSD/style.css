@@ -88,7 +88,23 @@ div.container {
 	margin: 30px 25px;
 
 }
-div.column-left {
+
+
+div.box-right {
+	display: inline-block;
+	width: 900px;
+	padding: 0px 25px 25px 25px;
+}
+
+div.box-right h1, h2, h3, h4, h5, p {
+	padding: 10px 5px;
+}
+
+div.box-right ul, ol  {
+	padding: 0px 40px;
+}
+
+div.box-left {
 	display: inline-block;
 	vertical-align: top;
 	background: #e7e7e7;
@@ -96,18 +112,4 @@ div.column-left {
 	width: 140px;
 	border: 1px solid #d4d4d4;
 	margin: 10px 5px;
-}
-
-div.column-right {
-	display: inline-block;
-	width: 900px;
-	padding: 0px 25px 25px 25px;
-}
-
-div.column-right h1, h2, h3, h4, h5, p {
-	padding: 10px 5px;
-}
-
-div.column-right ul, ol  {
-	padding: 0px 40px;
 }
