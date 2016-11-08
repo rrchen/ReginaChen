@@ -1,0 +1,171 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+	div.wrapper {
+	width: 1100px;
+	min-height: 1000px;
+	margin: 0px auto;
+	}
+
+	div.header {
+		width: 1100px;
+		min-height: 100px;
+		background: #eceaea;
+	}
+
+	div.phone {
+		vertical-align: bottom;
+		text-align: right;
+		display: inline-block;
+		width: 750px;
+		margin-bottom: 10px;
+		font-weight: bold;
+		font-family: arial;
+	}
+
+	div.header img{
+		display: inline-block;
+		width: 30%;
+	}
+
+	div.header ul{
+		display: inline-block;
+		border-top: grey solid 1px;
+		text-align: center;
+		font-weight: bold;
+		width: 1090px;
+		padding: 10px 5px 10px 5px;
+		background: #eceaea;
+		font-family: arial;
+		font-size: 12px;
+	}
+
+	div.header li{
+		list-style-type: none;
+		display: inline;
+		border-right: darkgrey solid 1px;
+		margin-right: 10px;
+		padding-right: 12px;
+		color: darkgrey;
+	}
+
+	div.main-section {
+		width: 100%;
+		min-height: 800px;
+		background-color: black;
+	}
+
+	div.about{
+		width: 1100px;
+		padding-top: 10px;
+		margin: 0px auto;
+		padding-left: 30px;
+	}
+
+	div.about img{
+		display: inline-block;
+		width: 450px;
+		height: 320px;
+		vertical-align: top;
+		border: white solid 5px;
+		margin: 10px;
+	}
+
+	div.ppcinfo {
+		display: inline-block;
+		width: 540px;
+		height: 330px;
+		vertical-align: top;
+		background: #676764;
+		margin: 10px;
+	}
+
+	div.ppcinfo h1 {
+		background: gold;
+		height: 30px;
+		font-size: 18px;
+		padding-top: 15px;
+		padding-left: 10px;
+		font-family: arial;
+	}
+
+	div.ppcinfo h2 {
+		color: white;
+		font-family: arial;
+		font-size: 18px;
+		margin: 15px;
+	}
+
+	div.ppcinfo p {
+		color: white;
+		font-family: sans-serif;
+		font-size: 14px;
+		margin: 15px;
+	}
+
+	div.mid-section img {
+		width: 70px;
+		height: 15px;
+		border-radius: 5px;
+		display: inline-block;
+		margin: 5px 10px 5px 10px;
+		padding-left: 30px;
+	}
+
+	div.mid-section p {
+		color: #fbf4af;
+		display: inline-block;
+		vertical-align: top;
+		margin-top: 5px;
+		font-size: 12px;
+		font-family: arial;
+		padding-bottom: 10px;
+	}
+
+	div.bottom-section {
+		margin: auto;
+		width: 1050px;
+		text-align: center;
+	}
+
+	div.infoboxes {
+		display: inline-block;
+		width: 252px;
+		background: #FDF4E0;
+		vertical-align: top;
+		height: 301px;
+		margin-top: 10px;
+	}
+
+	div.infoboxes h1 {
+		background: gold;
+		width: 242px;
+		height: 30px;
+		font-size: 15px;
+		text-align: left;
+		padding-top: 10px;
+		padding-left: 10px;
+		font-family: arial;
+	}
+
+	div.infoboxes img {
+		width: 100%;
+	}
+
+	div.infoboxes p {
+		width: 230px;
+		height: 55px;
+		font-size: 12px;
+		margin: 10px 5px 20px 10px;
+		text-align: left;
+		font-family: arial;
+	}
+
+	div.infoboxes button {
+		width: 100px;
+		background: #ffce04;
+		border: black solid 3px;
+		margin-left: 110px;
+	}
