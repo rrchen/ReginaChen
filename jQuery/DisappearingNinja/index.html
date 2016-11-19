@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+		<title>Disappearing Cat</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('img').click(function(){
+					$(this).hide(1000);
+				});
+				$('#reappear').click(function(){
+					$('img').show(1000);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1>Click on a cat to make it disappear...</h1>
+			<div class="content">
+				<img src="cat.png">
+				<img src="cat.png">
+				<img src="cat.png">
+				<img src="cat.png">
+				<img src="cat.png">
+				<img src="cat.png">
+				<img src="cat.png">
+				<img src="cat.png">
+			</div>
+			<div class="buttons">
+				<button type="button" id="reappear"><h2>CLICK THIS to make all of the cats come back!</h2></button>
+			</div>
+		</div>
+
+	</body>
+</html>
