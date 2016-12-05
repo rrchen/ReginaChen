@@ -10,9 +10,9 @@ def scoresGrades():
             grade = "C"
         elif (score >= 60):
             grade = "D"
-        else
+        else:
             grade = "FAIL"
-        print "Score: " + str(score) + "; Your grade is " + grade
+        print "Score: " + str(score) + "; Your grade is a" + grade
     print "End of the program. Bye!"
 
 scoresGrades()
